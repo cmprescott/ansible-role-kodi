@@ -1,2 +1,8 @@
 ---
 # defaults file for ansible-role-kodi
+
+kodi_source_files: []
+kodi_source_music: []
+kodi_source_pictures: []
+kodi_source_programs: []
+kodi_source_videos: []

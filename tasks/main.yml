@@ -1,2 +1,18 @@
 ---
 # tasks file for ansible-role-kodi
+
+
+# ----- Setup -----
+- name: Setup | apt | ensure Kodi repository present
+  sudo: Yes
+  apt_repository: repo=ppa:team-xbmc/ppa
+
+
+- name: Setup | apt | ensure Kodi packages present
+  sudo: Yes
+  apt: name={{ item }} update_cache=yes cache_valid_time=86400
+  with_items:
+  - software-properties-common
+  - "kodi=2:14.2*"
+
+

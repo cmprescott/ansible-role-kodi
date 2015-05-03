@@ -1,6 +1,6 @@
 # Change Log
 
-## [Unreleased][unreleased]
+## [0.1.0] - 2015-05-03
 ### Added
 - This changelog
 - Template advancedsettings.xml (Simple-->mySql params, Advanced-->textOfXml)
@@ -17,4 +17,4 @@
 - Install version via apt
 - Template sources.xml
 
-[unreleased]: https://github.com/cmprescott/ansible-role-kodi/compare/release/0.1.0
+[0.1.0]: https://github.com/cmprescott/ansible-role-kodi/compare/0.0.1...0.1.0

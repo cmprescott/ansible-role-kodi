@@ -12,9 +12,9 @@ galaxy_info:
     - utopic
     - vivid
   - name: Debian
-   versions:
-   - wheezy
-   - jessie   
+    versions:
+    - wheezy
+    - jessie   
   categories:
   - system
 

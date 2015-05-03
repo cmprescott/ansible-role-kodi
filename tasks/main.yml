@@ -26,3 +26,9 @@
 
 - name: "Config| all | ensure sources.xml templated"
   template: src=sources.xml.j2 dest="~/.kodi/userdata/sources.xml" owner={{ ansible_ssh_user }} mode=0755
+
+
+- name: "Config| all | ensure advancedsettings.xml templated"
+  template: src=advancedsettings.xml.j2 dest="~/.kodi/userdata/advancedsettings.xml" owner={{ ansible_ssh_user }} mode=0755
+
+...

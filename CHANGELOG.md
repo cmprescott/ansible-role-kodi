@@ -4,7 +4,12 @@
 ### Added
 - This changelog
 - Template advancedsettings.xml (Simple-->mySql params, Advanced-->textOfXml)
+- Readme
+- Galaxy metadata
 
+### Removed
+- Handlers folder (nothing to handle)
+- Vars folder (no vars)
 
 ## 0.0.1 - 2015-05-02
 ### Added

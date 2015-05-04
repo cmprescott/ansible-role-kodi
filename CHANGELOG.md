@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.1] - 2015-05-04
+### Fix
+- Incorrect xml for mysql server host
+- Jinja2 thinks blank is defined. Commented out default vars.
+
 ## [0.1.0] - 2015-05-03
 ### Added
 - This changelog
@@ -17,4 +22,5 @@
 - Install version via apt
 - Template sources.xml
 
+[0.1.0]: https://github.com/cmprescott/ansible-role-kodi/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/cmprescott/ansible-role-kodi/compare/0.0.1...0.1.0

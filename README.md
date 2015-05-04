@@ -30,12 +30,12 @@ kodi_source_pictures: []
 kodi_source_programs: []
 kodi_source_videos: []
 
+
+# Optional settings (Not defined by default)
 kodi_mysql_server:
 kodi_mysql_user:
 kodi_mysql_pass:
-
-# Write as much XML as you want into here
-kodi_advanced_settings:
+kodi_advanced_settings:| # Write as much XML as you want into here
 ```
 
 Dependencies

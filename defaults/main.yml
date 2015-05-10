@@ -1,6 +1,7 @@
 ---
 # defaults file for ansible-role-kodi
 
+# Arrays of filepaths. Reccomended to override.
 kodi_source_files: []
 kodi_source_music: []
 kodi_source_pictures: []
@@ -13,4 +14,5 @@ kodi_source_videos: []
 # kodi_mysql_user:
 # kodi_mysql_pass:
 # kodi_advanced_settings:|
+
 ...

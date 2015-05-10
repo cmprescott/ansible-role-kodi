@@ -16,6 +16,12 @@
   - "kodi=2:14.2*"
 
 
+- name: "Setup | apt | ensure Kodi pvr packages present"
+  sudo: Yes
+  apt: name={{ kodi_pkg_pvr }} update_cache=yes cache_valid_time=86400
+  when: kodi_pkg_pvr is defined
+
+
 # ----- Config -----
 - name: "Config| all | ensure Kodi conf folders"
   file: path={{ item }} state=directory owner={{ ansible_ssh_user }} mode=0755

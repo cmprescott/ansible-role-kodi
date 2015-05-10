@@ -24,6 +24,7 @@ Role Variables
 
 ```yaml
 # Package/System configuration
+kodi_conf_dir: ~/.kodi
 kodi_pkg_apt_repo: ppa:team-xbmc/ppa
 kodi_pkg_apt_ver: 2:14.2
 

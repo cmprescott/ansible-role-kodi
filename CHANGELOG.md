@@ -22,5 +22,5 @@
 - Install version via apt
 - Template sources.xml
 
-[0.1.0]: https://github.com/cmprescott/ansible-role-kodi/compare/0.1.0...0.1.1
+[0.1.1]: https://github.com/cmprescott/ansible-role-kodi/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/cmprescott/ansible-role-kodi/compare/0.0.1...0.1.0

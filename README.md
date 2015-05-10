@@ -32,10 +32,11 @@ kodi_source_videos: []
 
 
 # Optional settings (Not defined by default)
+kodi_pkg_pvr:           # See http://kodi.wiki/view/PVR_recording_software
 kodi_mysql_server:
 kodi_mysql_user:
 kodi_mysql_pass:
-kodi_advanced_settings:| # Write as much XML as you want into here
+kodi_advanced_settings: # Write as much XML as you want into here
 ```
 
 Dependencies

@@ -1,5 +1,10 @@
 ---
-- hosts: all
-  roles:
-    - role: ../..
 
+- hosts: all
+
+  roles:
+
+    - role: ../..
+      kodi_pkg_pvr: kodi-pvr-tvheadend-hts
+
+...

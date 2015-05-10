@@ -8,12 +8,18 @@
   apt_repository: repo=ppa:team-xbmc/ppa
 
 
-- name: "Setup | apt | ensure Kodi packages present"
+- name: "Setup | apt | ensure Kodi base packages present"
   sudo: Yes
   apt: name={{ item }} update_cache=yes cache_valid_time=86400
   with_items:
   - software-properties-common
   - "kodi=2:14.2*"
+
+
+- name: "Setup | apt | ensure Kodi pvr package present"
+  sudo: Yes
+  apt: name={{ kodi_pkg_pvr }} update_cache=yes cache_valid_time=86400
+  when: kodi_pkg_pvr is defined
 
 
 # ----- Config -----

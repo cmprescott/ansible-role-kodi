@@ -9,10 +9,10 @@ kodi_source_programs: []
 kodi_source_videos: []
 
 # Optional settings (Not defined by default)
-# kodi_pkg_pvr: 
+# kodi_advanced_settings:|
 # kodi_mysql_server:
 # kodi_mysql_user:
 # kodi_mysql_pass:
-# kodi_advanced_settings:|
+# kodi_pkg_pvr: 
 
 ...

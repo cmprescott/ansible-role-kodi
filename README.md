@@ -26,7 +26,7 @@ Role Variables
 # Package/System configuration
 kodi_conf_dir: ~/.kodi
 kodi_pkg_apt_repo: ppa:team-xbmc/ppa
-kodi_pkg_apt_ver: 2:14.2
+kodi_pkg_apt_ver: "2:14.2"
 
 # Arrays of filepaths. Reccomended to override.
 kodi_source_files: []

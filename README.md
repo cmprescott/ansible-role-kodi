@@ -23,20 +23,24 @@ Role Variables
 --------------
 
 ```yaml
-# Each of these are just arrays of file paths
+# Package/System configuration
+kodi_conf_dir: ~/.kodi
+kodi_pkg_apt_repo: ppa:team-xbmc/ppa
+kodi_pkg_apt_ver: "2:14.2"
+
+# Arrays of filepaths. Reccomended to override.
 kodi_source_files: []
 kodi_source_music: []
 kodi_source_pictures: []
 kodi_source_programs: []
 kodi_source_videos: []
 
-
 # Optional settings (Not defined by default)
-kodi_pkg_pvr:           # See http://kodi.wiki/view/PVR_recording_software
+kodi_advanced_settings: # Write as much XML as you want into here
 kodi_mysql_server:
 kodi_mysql_user:
 kodi_mysql_pass:
-kodi_advanced_settings: # Write as much XML as you want into here
+kodi_pkg_pvr:           # See http://kodi.wiki/view/PVR_recording_software
 ```
 
 Dependencies

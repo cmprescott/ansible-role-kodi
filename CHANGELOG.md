@@ -16,11 +16,12 @@
 - Handlers folder (nothing to handle)
 - Vars folder (no vars)
 
-## 0.0.1 - 2015-05-02
+## [0.0.1] - 2015-05-02
 ### Added
 - Continuous Integration
 - Install version via apt
 - Template sources.xml
 
-[0.1.0]: https://github.com/cmprescott/ansible-role-kodi/compare/0.1.0...0.1.1
+[0.1.1]: https://github.com/cmprescott/ansible-role-kodi/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/cmprescott/ansible-role-kodi/compare/0.0.1...0.1.0
+[0.0.1]: https://github.com/cmprescott/ansible-role-kodi/compare/7d3448fe...0.0.1
